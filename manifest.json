@@ -7,14 +7,11 @@
   ],
   "icons":{"16": "trove_icon_16.png",
             "48": "trove_icon_48.png",
-            "128" "trove_icon_128.png":},
+            "128": "trove_icon_128.png"},
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": [
-  "tabs", "http://*/*", "https://*/*"
-  ],
   "browser_action": {
     "default_title": "Pick this article",
     "default_icon": "trove_icon_16.png"
