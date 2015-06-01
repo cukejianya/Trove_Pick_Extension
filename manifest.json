@@ -3,7 +3,8 @@
   "description": "Easy way to pick articles to Trove",
   "version": "0.1",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "contextMenus"
   ],
   "icons":{"16": "trove_icon_16.png",
             "48": "trove_icon_48.png",
