@@ -12,8 +12,11 @@
     "scripts": ["background.js"],
     "persistent": false
   },
+  "permissions": [
+  "tabs", "http://*/*", "https://*/*"
+  ],
   "browser_action": {
-    "default_title": "Pick Articles",
+    "default_title": "Pick this article",
     "default_icon": "trove_icon_16.png"
   },
   "manifest_version": 2
