@@ -8,17 +8,17 @@ var button = buttons.ActionButton({
   id: "mozilla-link",
   label: "Visit Mozilla",
   icon: {
-    "16": "../../trove_icon_16.png",
-    "32": "../../trove_icon_48.png",
-    "64": "../../trove_icon_128.png"
+    "16": "./trove_icon_16.png",
+    "32": "./trove_icon_48.png",
+    "64": "./trove_icon_128.png"
   },
   onClick: handleClick
 });
 
 var meanuItem = contextMenu.Item({
   label: "Pick this article",
-  contentScript: 'window.location.href ='+ action_url
-})
+  contentScript: 'window.location.href ='+ action_url;
+});
 
 
 function handleClick(state) {
