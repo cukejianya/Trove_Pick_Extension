@@ -6,7 +6,7 @@ var pickArticle = function(tab) {
 chrome.browserAction.onClicked.addListener(pickArticle);
 
 chrome.contextMenus.create({
-  "title" : "Get image info",
+  "title" : "Pick this article",
   "type" : "normal",
   "contexts" : ["all"],
   "onclick" : pickArticle
